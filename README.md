@@ -1,0 +1,4 @@
+stoicquote
+==========
+
+Tweets stoic quotes

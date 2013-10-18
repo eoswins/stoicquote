@@ -115,8 +115,6 @@ Uses the Login and QuoteHandler class to publish tweets
             self.api.update_status(message)
             time.sleep(4)
          
-         
-        
 
 login = Login()
 path = 'data/meditations/meditations_pull.txt'

@@ -1,4 +1,4 @@
 stoicquote
 ==========
 
-Tweets stoic quotes
+Tweets stoic quotes - Follow @stoicquote

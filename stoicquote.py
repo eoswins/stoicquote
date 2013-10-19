@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 '''
 Program: StoicQuote for Twitter
 By: e0s

@@ -8,7 +8,7 @@ Description: Posts a tweet related to Stoicism
 
 '''
 
-import tweepy, access, time
+import tweepy, access, time, os
 
 class Login:
     """
@@ -116,9 +116,10 @@ class Stoicwriter:
             self.api.update_status(message)
             time.sleep(4)
          
-
-login = Login()
+directory = os.path.dirname(__file__)
+os.chdir(directory)
 path = 'data/meditations/meditations_pull.txt'
+login = Login()
 quotehandler = QuoteHandler(path)
 try:
     stoicwriter = Stoicwriter(login, quotehandler)

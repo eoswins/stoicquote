@@ -104,6 +104,8 @@ class Stoicwriter:
             self.message_list.append(self.next_message[0:i])
             self.ensureLimit(self.next_message[i+1:])
         else:
+            if len(self.next_message) <= 130:
+                self.next_message = self.next_message + ' #stoicism'  
             self.message_list.append(self.next_message)
 
     def tweet(self):

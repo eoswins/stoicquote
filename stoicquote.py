@@ -75,7 +75,8 @@ class QuoteHandler:
         before it was overwritten
         """
         self.f = open(self.p,'w')
-        self.f.write(self.txt)
+        for line in self.txt:
+            self.f.write(line)
         self.f.close()
 
 
